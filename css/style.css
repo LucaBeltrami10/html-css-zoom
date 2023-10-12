@@ -6,6 +6,7 @@
 }
 body{
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 /* CLASSI GENERICHE */
 .flex-centered{
@@ -62,7 +63,10 @@ header{
     padding: 0 15px;
     border-radius: 0px;
  }
-
+div.scroll-option{
+    font-size: 1rem;
+    text-decoration: solid;
+}
 
 /* MAIN */
 .participant-vision{
@@ -118,7 +122,7 @@ footer{
 
 footer > nav{
     position: absolute;
-    right: 0;
+    right: 10px;
 }
 
 /* CLASSI SPECIFICHE */
