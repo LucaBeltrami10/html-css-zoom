@@ -37,8 +37,8 @@ header{
 .participant-vision{
     height: 135px;
     width: 230px;
-    background-color: lightcoral;
     margin: 3px;
+    position: relative;
     
 
 }
@@ -51,9 +51,16 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
+}
+
+.participant-name{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 0.25rem;
+    position: absolute;
+    bottom: 0;
 }
 
 
 /* CLASSI SPECIFICHE */
-/* HEADER */
