@@ -4,3 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* CLASSI GENERICHE */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-a-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: #222222;
+}
+
+
+/* CLASSI SPECIFICHE */
+
+/* HEADER */
