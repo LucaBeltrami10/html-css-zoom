@@ -30,6 +30,7 @@ body{
 }
 
 
+
 /* HEADER */
 header{
     height: 70px;
@@ -39,14 +40,36 @@ header{
     bottom: 0;
     z-index: 2;
 }
+
+.header-option{
+    flex-direction: column;
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+.header-option > p{
+    font-size: 0.8rem;
+    padding-top: 7px;
+}
+
+ header > nav:nth-child(2) div:nth-child(4) > i{
+    color: #4bc800;
+ }
+
+ button.button-end-meeting{
+    color: #f40316;
+    height: 100%;
+    padding: 0 15px;
+    border-radius: 0px;
+ }
+
+
 /* MAIN */
 .participant-vision{
     height: 135px;
     width: 230px;
     margin: 3px;
     position: relative;
-    
-
 }
 
 main{
@@ -76,6 +99,7 @@ main{
     padding: 0.25rem;
     position: absolute;
     bottom: 0;
+    font-size: 0.8rem;
 }
 
 /* FOOTER */
